@@ -1,4 +1,6 @@
-namespace WinFormsApp1
+using DigitaltubeTool;
+
+namespace DigitaltubeTool
 {
     internal static class Program
     {

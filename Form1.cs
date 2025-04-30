@@ -1,7 +1,7 @@
 using System;
-using WinFormsApp1.Properties;
+using DigitaltubeTool.Properties;
 
-namespace WinFormsApp1
+namespace DigitaltubeTool
 {
     public partial class Form1 : Form
     {

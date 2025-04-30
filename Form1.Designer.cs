@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp1
+﻿namespace DigitaltubeTool
 {
     partial class Form1
     {
@@ -272,7 +272,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Font = new Font("Microsoft YaHei UI", 10.5F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.Font = new Font("Microsoft YaHei UI", 10.5F);
             label9.Location = new Point(42, 205);
             label9.Name = "label9";
             label9.Size = new Size(93, 20);
@@ -282,7 +282,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Font = new Font("Microsoft YaHei UI", 10.5F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.Font = new Font("Microsoft YaHei UI", 10.5F);
             label10.Location = new Point(42, 243);
             label10.Name = "label10";
             label10.Size = new Size(93, 20);
@@ -291,7 +291,7 @@
             // 
             // text_cc
             // 
-            text_cc.Font = new Font("Microsoft YaHei UI", 10.5F, FontStyle.Regular, GraphicsUnit.Point);
+            text_cc.Font = new Font("Microsoft YaHei UI", 10.5F);
             text_cc.Location = new Point(162, 203);
             text_cc.Name = "text_cc";
             text_cc.Size = new Size(120, 25);
@@ -299,7 +299,7 @@
             // 
             // text_ca
             // 
-            text_ca.Font = new Font("Microsoft YaHei UI", 10.5F, FontStyle.Regular, GraphicsUnit.Point);
+            text_ca.Font = new Font("Microsoft YaHei UI", 10.5F);
             text_ca.Location = new Point(162, 241);
             text_ca.Name = "text_ca";
             text_ca.Size = new Size(120, 25);
@@ -470,7 +470,7 @@
             // label19
             // 
             label19.AutoSize = true;
-            label19.Font = new Font("Microsoft YaHei UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label19.Font = new Font("Microsoft YaHei UI", 15.75F);
             label19.Location = new Point(458, 25);
             label19.Name = "label19";
             label19.Size = new Size(201, 28);
@@ -676,7 +676,7 @@
             // 
             // text_out
             // 
-            text_out.Font = new Font("Microsoft YaHei UI", 10.5F, FontStyle.Regular, GraphicsUnit.Point);
+            text_out.Font = new Font("Microsoft YaHei UI", 10.5F);
             text_out.Location = new Point(25, 250);
             text_out.Name = "text_out";
             text_out.Size = new Size(210, 25);
@@ -684,7 +684,7 @@
             // 
             // text_in
             // 
-            text_in.Font = new Font("Microsoft YaHei UI", 10.5F, FontStyle.Regular, GraphicsUnit.Point);
+            text_in.Font = new Font("Microsoft YaHei UI", 10.5F);
             text_in.Location = new Point(25, 110);
             text_in.Name = "text_in";
             text_in.Size = new Size(210, 25);
@@ -700,6 +700,7 @@
             Controls.Add(groupBox1);
             Controls.Add(label19);
             Controls.Add(richTextBox1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "数码管段码编码工具V1.0 —— By JRWang 2022.12.06";
             ((System.ComponentModel.ISupportInitialize)seg_a).EndInit();
